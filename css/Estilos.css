@@ -128,7 +128,14 @@ h2{
 
 .Project-imageContainer{
     width: 500px;
+  
     display: inline-block;
+}
+
+.project-image{
+    object-fit: cover;
+    height: 400px;
+
 }
 
 
@@ -192,6 +199,7 @@ h2{
 
 
 .event-list{
+    margin-bottom: 30px;
     display: flex;
     flex-wrap:  wrap;
 
@@ -199,8 +207,22 @@ h2{
 
 
 .event {
-    border : 1px  solid red;
+    border : 1px  solid gray;
     margin: 10px;
+    margin-right: 105px;
+    width: 480px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    overflow:  hidden;
+    background: #f4fbff;
+   
+
+}
+
+.event2 {
+    border : 1px  solid gray;
+    margin: 10px;
+    /* margin-right: 58px; */
     width: 480px;
     flex-shrink: 0;
     border-radius: 10px;
@@ -218,6 +240,12 @@ h2{
     object-fit: cover;
 }
 
+.event2 img {
+    
+    width : 480px;
+    height: 200px;
+    object-fit: cover;
+}
 
 .event-detail {
     margin : 20px 40px;
@@ -238,6 +266,7 @@ h2{
 }
 
 .event-url{
+    margin-top: 10px;
     color:  #026fff;
     border: 2px solid ;
     text-decoration:  none ;
@@ -323,6 +352,7 @@ h2{
 
 
 footer{
+  
     color : white;
  background-color: #1b2127;
  display: flex;
