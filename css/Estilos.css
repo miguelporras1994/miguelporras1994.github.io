@@ -87,6 +87,12 @@ h2{
 
 }
 
+.logo{
+    height: 90px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
 .Project {
     border: 1px solid gray;
     border-radius: 15px;
@@ -185,7 +191,8 @@ h2{
 }
 
 .hero-image{
-
+    height: 300px;
+     width: 450px;
     object-fit: cover;
 }
 
@@ -222,7 +229,6 @@ h2{
 .event2 {
     border : 1px  solid gray;
     margin: 10px;
-    /* margin-right: 58px; */
     width: 480px;
     flex-shrink: 0;
     border-radius: 10px;
@@ -318,10 +324,6 @@ h2{
 
 }
 
-/* .Social{
-    border:1px solid red;
-
-}  */
 .Social-link {
     display: inline-block;
     height: 50px;
@@ -369,3 +371,46 @@ footer img{
 }
 
 
+
+@media screen and (max-width: 650px ){
+    .header{
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+    }
+    .logo{
+        height: 90px;
+        text-align: center;
+        margin-bottom: 32px;
+    }
+    .header ol{
+        justify-content: space-around;
+    }
+    .hero{
+        height: 75vh;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0px 16px;
+    }
+    .hero-image{
+        width: 100%;
+    }
+    .Project{
+        flex-wrap: wrap;
+    }
+    .Container{
+        width: 100%;
+        margin: 0 auto;
+        padding: 0px  8px;
+    }
+    .event{
+        width: 95%;
+        display: inline-block;    }
+    .event img{
+        width: 100%;
+    }
+    .project-image{
+        width: 100%;
+    }
+
+}
