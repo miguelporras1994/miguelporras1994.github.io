@@ -17,6 +17,11 @@ ul{
  padding: 0;
  list-style: none;
 }
+.logo{
+    height: 90px;
+    padding-top: 10px;
+    
+}
 
   header  figure{
     margin: 0;
@@ -76,6 +81,16 @@ h2{
     flex-wrap: inherit;
 }
 
+.Container2{
+   
+    width: 1100px;
+    margin: 0 auto;
+    display: inherit;
+    height: inherit;
+    justify-content:  inherit;
+    align-items: inherit;
+    flex-wrap: inherit;
+}
 
 .Portafolio{
    
@@ -376,11 +391,14 @@ footer img{
     .logo{
         height: 90px;
         text-align: center;
-        margin-bottom: 32px;
+        margin-bottom: 5px;
     }
     .header ol{
         justify-content: space-around;
+        padding: 20px 0px;
+        margin: 0px 10px;
     }
+
     .hero{
         height: 75vh;
         flex-wrap: wrap;
@@ -398,8 +416,16 @@ footer img{
         margin: 0 auto;
         padding: 0px  8px;
     }
+
+    .Container2{
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0px  8px;
+    }
     .event{
-        width: 95%;
+        width: 90%;
         display: inline-block; }
     .event img{
         width: 100%;
@@ -407,7 +433,7 @@ footer img{
     }
 
     .event2{
-        width: 95%;
+        width: 90%;
         display: inline-block; }
     .event2 img{
         width: 100%;
@@ -416,5 +442,12 @@ footer img{
     .project-image{
         width: 100%;
     }
+
+    
+footer img{
+    width: 50%;
+    
+ 
+}
 
 }
