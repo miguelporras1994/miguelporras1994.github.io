@@ -87,11 +87,6 @@ h2{
 
 }
 
-.logo{
-    height: 90px;
-    text-align: center;
-    margin-bottom: 32px;
-}
 
 .Project {
     border: 1px solid gray;
@@ -372,7 +367,7 @@ footer img{
 
 
 
-@media screen and (max-width: 650px ){
+@media screen and (max-width: 600px ){
     .header{
         flex-direction: column;
         justify-content: center;
@@ -405,7 +400,7 @@ footer img{
     }
     .event{
         width: 95%;
-        display: inline-block;    }
+        display: inline-block; }
     .event img{
         width: 100%;
     }
