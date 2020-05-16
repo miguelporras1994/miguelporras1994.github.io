@@ -2,6 +2,10 @@
 /* gris claro = #626262 */
 /* background gris = #1b2127 */
 
+*{
+    box-sizing: border-box;
+}
+
 
 body{
     font-family: 'Source Sans Pro', sans-serif;
@@ -400,13 +404,19 @@ footer img{
     }
 
     .hero{
-        height: 75vh;
-        flex-wrap: wrap;
+        height: 100%;
+       flex-wrap: wrap;
         justify-content: center;
-        padding: 0px 16px;
+        padding: 10px 16px;
     }
+
     .hero-image{
         width: 100%;
+        padding-top: 5px;
+    }
+
+    h1{
+        font-size: 32px;
     }
     .Project{
         flex-wrap: wrap;
